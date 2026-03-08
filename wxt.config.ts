@@ -8,7 +8,7 @@ export default defineConfig({
     short_name: "SmartBuy",
     description:
       "Cesta inteligente para guardar, comparar y recomendar compras online.",
-    permissions: ["storage", "tabs", "activeTab", "contextMenus"],
+    permissions: ["storage", "tabs", "activeTab"],
     host_permissions: ["<all_urls>"],
     action: {
       default_title: "SmartBuy",
