@@ -1,0 +1,9 @@
+node_modules
+.dist
+.output
+.wxt
+.vscode/*
+!.vscode/mcp.json
+.smartbuy
+.DS_Store
+*.log

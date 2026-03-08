@@ -1,0 +1,33 @@
+{
+  "name": "smartbuy",
+  "version": "0.1.0",
+  "author": "Ebyn Nerlys",
+  "license": "SEE LICENSE IN LICENSE",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "mcp": "tsx ./mcp/server.ts",
+    "mcp:dev": "tsx watch ./mcp/server.ts",
+    "zip": "wxt zip",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/chrome": "latest",
+    "@types/node": "^25.3.5",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@wxt-dev/module-react": "latest",
+    "tsx": "^4.21.0",
+    "typescript": "latest",
+    "wxt": "latest"
+  }
+}

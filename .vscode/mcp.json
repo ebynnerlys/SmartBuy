@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "smartbuy": {
+      "type": "stdio",
+      "command": "npm",
+      "args": ["run", "mcp"],
+      "dev": {
+        "watch": "${workspaceFolder}/{mcp,src,entrypoints}/**/*.{ts,tsx}"
+      }
+    }
+  }
+}
